@@ -1,0 +1,105 @@
+.Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 45vw;
+    height: 70vh;
+    border-radius: 10px;
+    border: 1px solid #c0c0c0;
+    position: relative;
+    box-shadow: 
+    rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.Detailscontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.Detailscontainer .username {
+    top: 2px;
+    left: 10px;
+    position: absolute;
+}
+
+.username {
+    color: #226ac9;
+}
+
+.username span {
+    color: rgb(196, 103, 50);
+    font-weight: bold;
+}
+
+.Detailscontainer img {
+    width: 250px;
+}
+
+.Namescontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.firstname, 
+.lastname {
+    margin: 10px 3px;
+    color: rgb(196, 103, 50);
+    font-weight: bold;
+}
+
+.Mediacontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Mediacontainer img {
+    width: 20px;
+}
+
+.telegram,
+.instagram,
+.facebook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; 
+    margin: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+}
+
+.telegram {
+    background: #0088CC;
+}
+
+.instagram {
+    background: 
+    linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); ;
+}
+
+.facebook {
+    background: #4267b2;
+}
+
+.Connections {
+    display: flex;
+    justify-content: space-between;
+    top: 93%;
+    left: 20%;
+    position: absolute;
+}
+
+.Connections p {
+    color: #226ac9;
+    margin: 0 30px;
+}
+
+.Connections span {
+    color: rgb(196, 103, 50);
+    font-weight: bold;
+}

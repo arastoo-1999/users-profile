@@ -1,0 +1,27 @@
+.Container {
+    display: flex;
+    justify-content: center;
+}
+
+.userContainer img {
+    width: 50px;
+}
+
+.userContainer {
+    border: 1px solid silver;
+    border-radius: 10px;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 
+    rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.userContainer a {
+    text-decoration: none;
+    color: #226ac9;
+}
