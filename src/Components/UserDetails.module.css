@@ -1,15 +1,21 @@
+.Main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    position: relative;
+}
+
 .Container {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
-    width: 45vw;
-    height: 70vh;
+    width: 40vw;
+    height: 65vh;
     border-radius: 10px;
     border: 1px solid #c0c0c0;
     position: relative;
     box-shadow: 
-    rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.16) 0px 10px 10px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
@@ -49,14 +55,39 @@
     font-weight: bold;
 }
 
-.Mediacontainer {
+.BioandMediaContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 7px;
+    width: 15vw;
+    height: 60vh;
+    top: 12%;
+    left: 68%;
+    position: absolute;
+    align-items: center;
+    border: 1px solid #c0c0c0;
+    border-radius: 10px;
+    box-shadow: 
+    rgba(0, 0, 0, 0.16) 0px 10px 10px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+}
+
+.BioandMediaContainer img {
+    width: 20px;
+}
+
+.BioandMediaContainer span {
+    color: #e6683c;
+    font-weight: bold;
+}
+
+.mediaContainer {
     display: flex;
     justify-content: center;
     align-items: center;
-}
 
-.Mediacontainer img {
-    width: 20px;
 }
 
 .telegram,
@@ -89,8 +120,8 @@
 .Connections {
     display: flex;
     justify-content: space-between;
-    top: 93%;
-    left: 20%;
+    top: 90%;
+    left: 15%;
     position: absolute;
 }
 
